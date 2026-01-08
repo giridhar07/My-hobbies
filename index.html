@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Interests</title>
+</head>
+<body>
+    <header>
+        <nav class="bg-sky-100 shadow-lg">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex space-x-7">
+                        <div>
+                            <a href="index.html" class="flex items-center py-4">
+                                <span class="font-semibold text-gray-500 text-lg">My Hobbies</span>
+                            </a>
+                        </div>  
+                        <div class="hidden md:flex items-center space-x-1">
+                            <a href="index.html" class="py-4 px-2 text-blue-500 border-b-4 border-blue-500 font-semibold">Home</a>
+                            <a href="coding.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Coding</a>
+                            <a href="music.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Music</a>
+                            <a href="hobbies.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Other Hobbies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container mx-auto px-4 py-8 flex-grow">
+        <!-- Hero Image -->
+        <div class="mb-8">
+            <img 
+                src="https://amazy.s3.us-east-2.amazonaws.com/english/cover_1644616280.jpg" 
+                alt="A hub of various hobby items including books, music, and my other interests" 
+                class="w-full h-96 object-cover rounded-lg shadow-lg"
+            />
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Welcome Card -->
+            <div class="bg-sky-100 rounded-lg shadow-md p-6">
+                <h1 class="text-2xl font-bold text-gray-800 mb-4">Welcome to My Hobby Site</h1>
+                <p class="text-gray-600">Explore my various interests and hobbies through this simple website.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="bg-sky-100 rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Quick Links</h2>
+                <ul class="space-y-2">
+                    <li><a href="music.html" class="text-blue-500 hover:text-blue-700">Music Collection</a></li>
+                    <li><a href="coding.html" class="text-blue-500 hover:text-blue-700">Coding Projects</a></li>
+                    <li><a href="hobbies.html" class="text-blue-500 hover:text-blue-700">Other Interests</a></li>
+                </ul>
+            </div>
+
+            <!-- Featured Content -->
+            <div class="bg-sky-100 rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Featured Content</h2>
+                <p class="text-gray-600">Check out my latest projects and interests in the various sections of this site.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
